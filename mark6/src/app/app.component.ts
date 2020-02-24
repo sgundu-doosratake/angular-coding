@@ -21,7 +21,8 @@ export class AppComponent {
 
  ngOnInit() {
   console.log(this.dataService.cars);
-    this.someProperty = this.dataService.myData(); 
+  
+  this.someProperty = this.dataService.myData(); 
  }
 
 }
